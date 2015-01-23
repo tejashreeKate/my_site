@@ -1,0 +1,39 @@
+{"name":"tech stack",
+"children":[
+    {
+      "name":"styling",
+      "children":[
+        {"name":"bootstrap","size":50},
+        {"name":"AngularUI","size":50},
+        {"name":"JqueryUi","size":50}
+
+      ]
+    },
+    {
+      "name":"basics",
+      "children":[
+        {"name":"HTML/HTML5","size":50},
+        {"name":"CSS","size":50},
+        {"name":"Javascript","size":30},
+        {"name":"Jquery","size":30}
+
+      ]
+    },
+    {
+      "name":"frameworks",
+      "children":[
+        {"name":"AngularJs","size":50},
+        {"name":"NodeJS","size":10},
+        {"name":"EmberJS","size":10}
+
+      ]
+    },
+    {
+      "name":"libraries",
+      "children":[
+        {"name":"Highcharts","size":50},
+        {"name":"D3JS","size":50},
+        {"name":"Underscore","size":30}
+      ]
+    }
+  ]}

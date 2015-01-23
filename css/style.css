@@ -1,0 +1,128 @@
+body{
+	color: #000!important;
+}
+.home-container{
+	background-color: #13acbb;
+}
+.home-container-sec{
+	background-color: #ddd;
+	opacity: 0.8;
+}
+.display-image{
+	position: relative;
+	top: 25%;
+	left: 20%;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-color: #fff;
+}
+.display-text{
+	position: relative;
+	left: 50%;
+	width: 50%;
+}
+.display-text h3,.display-text h4{
+	color: #fff;
+}
+/*Chart CSS*/
+circle {
+  fill: #6128C4;
+  fill-opacity: .5;
+  stroke: rgb(31, 119, 180);
+  stroke-width: 1px;
+}
+
+.leaf circle {
+  fill: #F7C01A;
+  fill-opacity: 1;
+}
+
+text {
+  stroke:#fff;
+  font: 14px calibri;
+}
+/*----*/
+
+.about-image{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	left: 50px;
+	background-color: #fff;
+	top: 15px;
+}
+.time_mark{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #f6921e;
+	color: #fff;
+	font-weight: bold;
+	padding-top: 12px;
+	padding-left: 9px;
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+.edu_details{
+	width: 65%;
+	position: relative;
+	float: left;
+	display: inline-block;
+	margin-left: 20px;
+	border: 1px solid #666;
+	border-radius: 5px;
+	padding: 10px;
+}
+.edu_section{
+	margin-top: 20px;
+	height: 100px;
+}
+.angular-google-map-container { height: 550px; }
+
+.about-bg{
+	background-color: #ccff90;
+}
+.contact-bg{
+	background-color: #fff176;
+}
+.profile-bg{
+	background-color: #ffd180;
+}
+.nav-pills>.abt-tab>a.about-active-tab,.nav-pills>.abt-tab>a:focus,.nav-pills>.abt-tab>a:hover{
+	background-color: #b2ff59;
+	border-radius: 0px;
+}
+.nav-pills>.contact-tab>a.contact-active-tab,.nav-pills>.contact-tab>a:focus,.nav-pills>.contact-tab>a:hover{
+	background-color: #ffeb3b;
+	border-radius: 0px;
+}
+.nav-pills>.profile-tab>a.profile-active-tab,.nav-pills>.profile-tab>a:focus,.nav-pills>.profile-tab>a:hover{
+	background-color: #ff6d00;
+	border-radius: 0px;
+}
+.nav-pills>.home-tab>a.home-active-tab,.nav-pills>.home-tab>a:focus,.nav-pills>.home-tab>a:hover{
+	background-color: #0097a7;
+	border-radius: 0px;
+}
+.home-tab{
+	background-color: #00e5ff;
+}
+.abt-tab{
+	background-color: #b2ff29;
+}
+.profile-tab{
+	background-color: #ffa726;
+}
+.contact-tab{
+	background-color: #ffca28;
+}
+.nav-pills>li>a{
+	color: #fff;
+}
+.download-btn a,.download-btn a:hover{
+	text-decoration: none;
+	color: #fff;
+}
