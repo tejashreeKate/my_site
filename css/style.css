@@ -5,7 +5,6 @@ body{
 	background-color: #13acbb;
 }
 .home-container-sec{
-	background-color: #ddd;
 	opacity: 0.8;
 }
 .display-image{
@@ -131,7 +130,7 @@ text {
 	text-decoration: none;
 	color: #fff;
 }
-.contact-bg i,.about-bg i{
+.contact-bg i,.about-bg i,.summary-title{
 	color: #3f51b5;
 }
 .contact-table{

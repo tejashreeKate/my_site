@@ -1,6 +1,6 @@
 app.controller("HomeCtrl",function ($scope,$location){
-	$(".home-container").css("height",screen.height);
-	$(".home-container-sec").css("height",screen.height);
+	$(".home-container").css("height",window.innerHeight);
+	$(".home-container-sec").css("height",window.innerHeight);
 
 	$scope.goTo = function(url){
 		$location.path(url);
