@@ -94,18 +94,22 @@ text {
 .nav-pills>.abt-tab>a.about-active-tab,.nav-pills>.abt-tab>a:focus,.nav-pills>.abt-tab>a:hover{
 	background-color: #b2ff59;
 	border-radius: 0px;
+	color: #666;
 }
 .nav-pills>.contact-tab>a.contact-active-tab,.nav-pills>.contact-tab>a:focus,.nav-pills>.contact-tab>a:hover{
 	background-color: #ffeb3b;
 	border-radius: 0px;
+	color: #666;
 }
 .nav-pills>.profile-tab>a.profile-active-tab,.nav-pills>.profile-tab>a:focus,.nav-pills>.profile-tab>a:hover{
 	background-color: #ff6d00;
 	border-radius: 0px;
+	color: #666;
 }
 .nav-pills>.home-tab>a.home-active-tab,.nav-pills>.home-tab>a:focus,.nav-pills>.home-tab>a:hover{
 	background-color: #0097a7;
 	border-radius: 0px;
+	color: #666;
 }
 .home-tab{
 	background-color: #00e5ff;
@@ -121,8 +125,15 @@ text {
 }
 .nav-pills>li>a{
 	color: #fff;
+	font-weight: bold;
 }
 .download-btn a,.download-btn a:hover{
 	text-decoration: none;
 	color: #fff;
+}
+.contact-bg i,.about-bg i{
+	color: #3f51b5;
+}
+.contact-table{
+	font-size: 14px;
 }
