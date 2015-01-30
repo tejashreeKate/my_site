@@ -26,7 +26,22 @@ app.directive("d3chart",function(){
 			  node.append("title")
 			      .text(function(d) { return d.name + (d.children ? "" : ": " + format(d.size)); });
 
-			  var circle = node.append("circle").attr("r", function(d) { return d.r/2; });
+			  var circle = node.append("circle").attr("r", function(d) { return d.r/2; })
+			  				.style("fill",function(d){console.log(d);
+			  					if(d.parent && d.parent.name=='styling'){
+			  						return 'pink';
+			  					}
+			  					else if(d.parent && d.parent.name=='basics'){
+			  						return 'orange';
+			  					}
+			  					else if(d.parent && d.parent.name=='frameworks'){
+			  						return 'cornflowerblue';
+			  					}
+			  					else if(d.parent && d.parent.name=='libraries'){
+			  						return 'yellow';
+			  					}
+
+			  				})
 
 			  circle.transition().duration(2000)
 			      .attr("r", function(d) { return d.r; });
