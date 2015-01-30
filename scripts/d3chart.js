@@ -2,7 +2,8 @@ app.directive("d3chart",function(){
 	return{
 		restrict:"E",
 		link:function(){
-			var diameter = 760,
+			console.log("inside directive")
+			var diameter = 700,
 		    format = d3.format(",d");
 
 			var pack = d3.layout.pack()
@@ -25,16 +26,22 @@ app.directive("d3chart",function(){
 			  node.append("title")
 			      .text(function(d) { return d.name + (d.children ? "" : ": " + format(d.size)); });
 
-			  node.append("circle")
+			  var circle = node.append("circle").attr("r", function(d) { return d.r/2; });
+
+			  circle.transition().duration(2000)
 			      .attr("r", function(d) { return d.r; });
 
 			  node.filter(function(d) { return !d.children; }).append("text")
 			      .attr("dy", ".3em")
 			      .style("text-anchor", "middle")
 			      .text(function(d) { return d.name.substring(0, d.r / 3); });
+
+   			//circle.transition().duration(200).attr("r", function(d) { return d.r*2; });
+
 			});
 
 			d3.select(self.frameElement).style("height", diameter + "px");
+			
 	}
 	}
 })
