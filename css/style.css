@@ -17,8 +17,21 @@ body{
 	background-color: #fff;
 	background: url("../images/profile_pic.jpeg") no-repeat;
 	background-size: cover;
+	border: 10px solid #ddd;
 	-webkit-transform:rotate(-40deg);
 	-moz-transform:rotate(-40deg);
+}
+.display-image:hover{
+	-webkit-transform:rotate(-20deg);
+	width: 200px;
+	height: 200px;
+	-webkit-transition-duration:2s;
+	-webkit-animation-fill-mode: both;
+	-ms-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+	animation-duration: 1s;
 }
 .display-text{
 	position: relative;
@@ -90,10 +103,10 @@ text {
 .angular-google-map-container { height: 550px; }
 
 .about-bg{
-	background-color: #ccff90;
+	background-color: #f4ff81;
 }
 .contact-bg{
-	background-color: #fff176;
+	background-color: #ffff8d;
 }
 .profile-bg{
 	background-color: #ffd180;
@@ -143,4 +156,24 @@ text {
 }
 .contact-table{
 	font-size: 14px;
+}
+.legend-box{
+	width: 20px;
+	height: 20px;
+	background-color: #000;
+	display: inline-block;
+}
+.legend-title{
+	width: 80%;
+	display: inline-block;
+}
+.skill_legend{
+	position: relative;
+	float: right;
+	background-color: #fff;
+    width: 300px;
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
 }

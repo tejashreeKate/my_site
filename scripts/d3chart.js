@@ -3,7 +3,7 @@ app.directive("d3chart",function(){
 		restrict:"E",
 		link:function(){
 			console.log("inside directive")
-			var diameter = 700,
+			var diameter = 600,
 		    format = d3.format(",d");
 
 			var pack = d3.layout.pack()
@@ -11,10 +11,10 @@ app.directive("d3chart",function(){
 			    .value(function(d) { return d.size; });
 
 			var svg = d3.select(".profile-chart").append("svg")
-			    .attr("width", diameter)
-			    .attr("height", diameter)
+			    .attr("width", diameter+20)
+			    .attr("height", diameter+20)
 			  	.append("g")
-			    .attr("transform", "translate(2,2)");
+			    .attr("transform", "translate(20,20)");
 
 			d3.json("lib/profile.json", function(error, root) {
 			  var node = svg.datum(root).selectAll(".node")
