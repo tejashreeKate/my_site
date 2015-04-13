@@ -22,6 +22,7 @@ body{
 	-webkit-transform:rotate(-10deg);
 	float: right;
 	padding: 5px;
+	margin-right: 40%;
 }
 .board-pin{
 	position: relative;
