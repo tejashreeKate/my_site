@@ -1,2 +1,2 @@
-# my_site
+# Resume
 Online resume format
