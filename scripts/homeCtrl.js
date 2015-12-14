@@ -9,8 +9,8 @@ app.controller("HomeCtrl",function ($scope,$location){
 	$scope.marker = {
       id: 0,
       coords: {
-        latitude: 19.07598,
-        longitude: 72.87766
+        latitude: 40.7140,
+        longitude: 74.0710
       }
     }
    
