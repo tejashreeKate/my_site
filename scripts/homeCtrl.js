@@ -5,7 +5,7 @@ app.controller("HomeCtrl",function ($scope,$location){
 	$scope.goTo = function(url){
 		$location.path(url);
 	}
-	$scope.map = { center: { latitude: 19.07598, longitude: 72.87766 }, zoom: 15 };
+	$scope.map = { center: { latitude: 40.7140, longitude: 74.0710 }, zoom: 15 };
 	$scope.marker = {
       id: 0,
       coords: {
