@@ -15,7 +15,8 @@
         {"name":"HTML/HTML5","size":50},
         {"name":"CSS","size":50},
         {"name":"Javascript","size":30},
-        {"name":"Jquery","size":30}
+        {"name":"Jquery","size":30},
+        {"name":"Database","size":40}
 
       ]
     },
